@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>43-dars</title>
+</head>
+<body>
+  
+  <div class="container">
+    <form class="form" autocomplete="off">
+      <input class="form__input" type="text" placeholder="typing..."
+      aria-label="Enter your tasks">
+      
+      <button class="form__btn">Add</button>
+    </form>
+    
+    
+    <ol class="todo-list">
+      
+    </ol>
+    
+    <div class="all-btns">
+      <button class="all-btn">All
+        <strong class="all-count" >0</strong>
+      </button>
+      <button class="complate-btn">Complate
+        <strong class="complate-count" >0</strong>
+      </button>
+      <button class="uncomplate-btn">Uncomplate
+        <strong class="uncomplate-count">0</strong>
+      </button>
+    </div>
+  </div>
+  
+  
+  
+  <template class="film-template">
+    <li class="film-item">
+      <h3 class="film-item__title"></h3>
+      <input class="film-item__input" type="checkbox">
+      <button class="film-item__btn"></button>
+    </li>
+  </template>
+  <script src="./js/main.js"></script>
+</body>
+</html>

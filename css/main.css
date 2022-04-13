@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #E0EAFC;  
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC); 
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); 
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.form__input {
+    width: 200px;
+    margin-right: 10px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-style: 20px;
+    transition: all 1s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form__input:hover, .form__input:active {
+    width: 400px;
+}
+
+.form__btn {
+    background-color: #2808faf7;
+    color: #fffaf0;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);    transition: all 2.2s ease;
+}
+
+.form__btn:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.form__btn:active {
+    border: 3px solid #000;
+    box-shadow: 5px 3px 8px #000;
+}
+
+.todo-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 30px;
+    /* list-style: none; */
+    
+}
+
+.item {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 20px;
+    /* border: 2px solid #000; */
+    border-radius: 10px;
+    background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+}
+
+.item__title {
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: capitalize;
+    font-style: 30px;
+}
+
+.item__input {
+    width: 50px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+
+.item__btn {
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)
+}
+
+
+.item__btn {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    /* display: block; */
+}
+
+
+.item__btn:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.all-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.all-btn {
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)
+}
+
+.all-btn {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    /* display: block; */
+    font-style: 20px;
+    border: none;
+}
+
+.all-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.complate-btn {
+    background-image: linear-gradient(to right, #870000 0%, #190A05  51%, #870000  100%)
+}
+
+.complate-btn {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    /* display: block; */
+    border: none;
+}
+
+.complate-btn:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.uncomplate-btn {
+    background-image: linear-gradient(to right, #50C9C3 0%, #96DEDA  51%, #50C9C3  100%)
+}
+
+.uncomplate-btn {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    /* display: block; */
+    border: none;
+}
+
+.uncomplate-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
